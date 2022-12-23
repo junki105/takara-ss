@@ -2,17 +2,58 @@
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
 
+@font-face {
+  font-family: KozGoPr6N-Bold;
+  src: font('KozGoPr6N-Bold.otf');
+}
 
+@font-face {
+  font-family: KozGoPr6N-Medium;
+  src: font('KozGoPr6N-Medium.otf');
+}
 
-@mixin bebas($type: 'bold') {
+@font-face {
+  font-family: morisawa;
+  src: font('こぶりなゴシック\ StdN\ W6.otf');
+}
+
+@font-face {
+  font-family: noto-bold;
+  src: font('NotoSansCJKjp-Bold.otf');
+}
+
+@font-face {
+  font-family: noto-regular;
+  src: font('NotoSansCJKjp-Regular.otf');
+}
+
+@font-face {
+  font-family: acumin;
+  src: font('Acumin\ Variable\ Concept.ttf');
+}
+
+@mixin kozuka($type: 'medium') {
   @if ($type == 'bold') {
-    font-family: bebas-neue-by-fontfabric, sans-serif;
-    font-style: normal;
-    font-weight: 700;
+    font-family: KozGoPr6N-Bold;
+  }
+  @if ($type == 'medium') {
+    font-family: KozGoPr6N-Medium;
+  }
+}
+
+@mixin morisawa() {
+  font-family: morisawa;
+}
+
+@mixin noto($type: 'medium') {
+  @if ($type == 'bold') {
+    font-family: noto-bold;
   }
   @if ($type == 'regular') {
-    font-family: bebas-neue-by-fontfabric, sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: noto-regular;
   }
+}
+
+@mixin acumin() {
+  font-family: acumin;
 }
