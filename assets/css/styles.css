@@ -666,20 +666,34 @@ body {
   position: relative;
 }
 
-.scroll-top {
+.back-to-top {
   position: fixed;
   right: 10px;
   bottom: 36px;
   width: 94px;
   height: 94px;
   z-index: 99;
+  cursor: pointer;
 }
-.scroll-top img {
+.back-to-top img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+@media (max-width: 1200px) {
+  .back-to-top {
+    right: 10rem;
+    bottom: 36rem;
+    width: 94rem;
+    height: 94rem;
+  }
+}
+@media (max-width: 1200px) {
+  .back-to-top {
+    bottom: 30rem;
+  }
+}
 body {
   font-family: KozGoPr6N-Medium;
 }
