@@ -5,7 +5,7 @@ body {
 .hero {
     text-align: center;
     @include kozuka('bold');
-    &__ttl {
+    &-ttl {
         padding: 82px 0 47px;
         h1 {
             font-size: 60px;
@@ -16,7 +16,7 @@ body {
             font-size: 24px;
         }
     }
-    &__category {
+    &-category {
         background: #00a4d615;
         padding: 73px 0 68px;
         .container {
@@ -49,7 +49,7 @@ body {
 
 @include lg {
     .hero {
-        &__ttl {
+        &-ttl {
             padding: 82rem 0 47rem;
             h1 {
                 font-size: 60rem;
@@ -58,7 +58,7 @@ body {
                 font-size: 24rem;
             }
         }
-        &__category {
+        &-category {
             padding: 73rem 0 68rem;
             .container {
                 flex-wrap: wrap;
@@ -79,10 +79,10 @@ body {
 
 @include md {
     .hero {
-        &__ttl {
+        &-ttl {
             padding: 67rem 0 47rem;
         }
-        &__category {
+        &-category {
             padding: 33rem 0 38rem;
             .container {
                 flex-wrap: wrap;
@@ -115,10 +115,10 @@ body {
         font-size: 20px;
         margin-top: 30px;
     }
-    &__top {
+    &-top {
         padding: 88px 0 73px;
     }
-    &__bottom {
+    &-bottom {
         padding: 47px 0 218px;
     }
     .separate-line {
@@ -141,10 +141,10 @@ body {
             font-size: 20rem;
             margin-top: 30rem;
         }
-        &__top {
+        &-top {
             padding: 88rem 0 73rem;
         }
-        &__bottom {
+        &-bottom {
             padding: 47rem 0 218rem;
         }
         .separate-line {
@@ -163,10 +163,10 @@ body {
             font-size: 24rem;
             margin-top: 44rem;
         }
-        &__top {
+        &-top {
             padding: 70rem 0 61rem;
         }
-        &__bottom {
+        &-bottom {
             padding: 58rem 0 104rem;
         }
         .separate-line {
@@ -188,11 +188,11 @@ $color-business: #F29F00;
         padding: 0;
         position: relative;
     }
-    &__ttl {
+    &-ttl {
         font-size: 36px;
         line-height: 43px;
     }
-    &__content {
+    &-content {
         width: 343.32px;
         background: #fff;
         padding: 11px 17px 15px 14px;
@@ -223,7 +223,7 @@ $color-business: #F29F00;
             }
         }
     }
-    &__slider {
+    &-slider {
         width: 603.16px;
         height: 386.51px;
         position: absolute;
@@ -277,7 +277,7 @@ $color-business: #F29F00;
 
 .mission.please {
     background: $color-please;
-    .mission__content {
+    .mission-content {
         &-ttl {
             color: $color-please;
             span {
@@ -289,7 +289,7 @@ $color-business: #F29F00;
 
 .mission.environment {
     background: $color-environment;
-    .mission__content {
+    .mission-content {
         &-ttl {
             color: $color-environment;
             span {
@@ -301,7 +301,7 @@ $color-business: #F29F00;
 
 .mission.business {
     background: $color-business;
-    .mission__content {
+    .mission-content {
         &-ttl {
             color: $color-business;
             span {
@@ -317,11 +317,11 @@ $color-business: #F29F00;
         .container {
             padding: 0 20px;
         }
-        &__ttl {
+        &-ttl {
             font-size: 36rem;
             line-height: 43rem;
         }
-        &__content {
+        &-content {
             width: 343.32rem;
             padding: 11rem 17rem 15rem 14rem;
             margin-top: 30rem;
@@ -341,7 +341,7 @@ $color-business: #F29F00;
                 height: 99rem;
             }
         }
-        &__slider {
+        &-slider {
             width: 603.16rem;
             height: 386.51rem;
             right: 20px;
@@ -371,11 +371,11 @@ $color-business: #F29F00;
     .mission {
         padding: 54rem 0 228rem;
         text-align: center;
-        &__ttl {
+        &-ttl {
             font-size: 30rem;
             line-height: 43rem;
         }
-        &__content {
+        &-content {
             width: 441rem;
             padding: 14rem 18rem 19rem 18rem;
             margin-top: 34rem;
@@ -397,7 +397,7 @@ $color-business: #F29F00;
                 height: 127rem;
             }
         }
-        &__slider {
+        &-slider {
             width: 580rem;
             height: 373.63rem;
             left: 0;
@@ -432,13 +432,13 @@ $color-business: #F29F00;
     .container {
         padding: 0;
     }
-    &__ttl {
+    &-ttl {
         color: #fff;
         margin-top: 52px;
         padding: 20px 35px;
         background-color: $color-please;
     }
-    &__items {
+    &-items {
         color: $color-please;
         list-style: none;
         margin-top: 36px;
@@ -452,28 +452,28 @@ $color-business: #F29F00;
 }
 
 .effort.please {
-    .effort__ttl {
+    .effort-ttl {
         background-color: $color-please;
     }
-    .effort__items {
+    .effort-items {
         color: $color-please;
     }
 }
 
 .effort.environment {
-    .effort__ttl {
+    .effort-ttl {
         background-color: $color-environment;
     }
-    .effort__items {
+    .effort-items {
         color: $color-environment;
     }
 }
 
 .effort.business {
-    .effort__ttl {
+    .effort-ttl {
         background-color: $color-business;
     }
-    .effort__items {
+    .effort-items {
         color: $color-business;
     }
 }
@@ -485,11 +485,11 @@ $color-business: #F29F00;
         .container {
             padding: 0 20px;
         }
-        &__ttl {
+        &-ttl {
             margin-top: 52rem;
             padding: 20rem 35rem;
         }
-        &__items {
+        &-items {
             margin-top: 36rem;
             li {
                 padding: 0 37rem;
@@ -505,11 +505,11 @@ $color-business: #F29F00;
     .effort {
         padding: 238rem 0 102rem;
         font-size: 24rem;
-        &__ttl {
+        &-ttl {
             margin-top: 54rem;
             padding: 25rem 31rem;
         }
-        &__items {
+        &-items {
             margin-top: 29rem;
             li {
                 padding: 0 37rem;
@@ -562,16 +562,16 @@ $color-business: #F29F00;
     background-size: cover;
     color: #fff;
     margin-top: 129px;
-    &__ttl {
+    &-ttl {
         @include kozuka('bold');
         font-size: 60px;
     }
-    &__txt {
+    &-txt {
         margin-top: 49px;
         font-size: 21px;
         line-height: 36.8px;
     }
-    &__content {
+    &-content {
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -600,7 +600,7 @@ $color-business: #F29F00;
             padding-left: 4%;
         }
     }
-    &__btn {
+    &-btn {
         width: 148px;
         height: 159px;
         display: block;
@@ -610,18 +610,18 @@ $color-business: #F29F00;
             object-fit: cover;
         }
     }
-    &__number {
+    &-number {
         margin-top: 38px;
         @include noto('bold');
         font-size: 36px;
         line-height: 1;
     }
-    &__time {
+    &-time {
         margin-top: 14px;
         font-size: 18px;
         line-height: 21px;
     }
-    &__more {
+    &-more {
         margin-top: 52px;
         width: 164.69px;
         height: 41.48px;
@@ -641,35 +641,35 @@ $color-business: #F29F00;
     .contact {
         padding: 78rem 0 120rem;
         margin-top: 129rem;
-        &__ttl {
+        &-ttl {
             font-size: 60rem;
         }
-        &__txt {
+        &-txt {
             margin-top: 49rem;
             font-size: 21rem;
             line-height: 36.8rem;
         }
-        &__content {
+        &-content {
             margin-top: 43.8rem;
             .separate-line {
                 width: 1rem;
                 height: 247.76rem;
             }
         }
-        &__btn {
+        &-btn {
             width: 148rem;
             height: 159rem;
         }
-        &__number {
+        &-number {
             margin-top: 38rem;
             font-size: 36rem;
         }
-        &__time {
+        &-time {
             margin-top: 14rem;
             font-size: 18rem;
             line-height: 21rem;
         }
-        &__more {
+        &-more {
             margin-top: 52rem;
             width: 164.69rem;
             height: 41.48rem;
@@ -686,15 +686,15 @@ $color-business: #F29F00;
         padding: 71rem 0 83rem;
         background-image: image('bg_contact_sp.png');
         margin-top: 122rem;
-        &__ttl {
+        &-ttl {
             font-size: 60rem;
         }
-        &__txt {
+        &-txt {
             margin-top: 40rem;
             font-size: 22rem;
             line-height: 42.8rem;
         }
-        &__content {
+        &-content {
             margin-top: 50.9rem;
             flex-direction: column;
             align-items: center;
@@ -713,20 +713,20 @@ $color-business: #F29F00;
                 margin-top: 62rem;
             }
         }
-        &__btn {
+        &-btn {
             width: 382rem;
             height: 120rem;
         }
-        &__number {
+        &-number {
             margin-top: 35rem;
             font-size: 46rem;
         }
-        &__time {
+        &-time {
             margin-top: 15rem;
             font-size: 24rem;
             line-height: 28rem;
         }
-        &__more {
+        &-more {
             margin-top: 49rem;
             width: 300.13rem;
             height: 78.85rem;

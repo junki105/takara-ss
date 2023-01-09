@@ -1463,26 +1463,26 @@ body {
   text-align: center;
   font-family: KozGoPr6N-Bold;
 }
-.hero__ttl {
+.hero-ttl {
   padding: 82px 0 47px;
 }
-.hero__ttl h1 {
+.hero-ttl h1 {
   font-size: 60px;
   color: #0070BC;
 }
-.hero__ttl p {
+.hero-ttl p {
   color: #00A4D6;
   font-size: 24px;
 }
-.hero__category {
+.hero-category {
   background: rgba(0, 164, 214, 0.0823529412);
   padding: 73px 0 68px;
 }
-.hero__category .container {
+.hero-category .container {
   display: flex;
   justify-content: center;
 }
-.hero__category-item {
+.hero-category-item {
   width: 250px;
   height: 59.17px;
   border-radius: 29.58px;
@@ -1490,63 +1490,63 @@ body {
   font-size: 24px;
   margin: 0 13px;
 }
-.hero__category-item span {
+.hero-category-item span {
   letter-spacing: -5px;
 }
-.hero__category-item:first-child {
+.hero-category-item:first-child {
   background: #f6b900;
 }
-.hero__category-item:nth-child(2) {
+.hero-category-item:nth-child(2) {
   background: #00933b;
 }
-.hero__category-item:last-child {
+.hero-category-item:last-child {
   background: #f29f00;
 }
 
 @media (max-width: 1200px) {
-  .hero__ttl {
+  .hero-ttl {
     padding: 82rem 0 47rem;
   }
-  .hero__ttl h1 {
+  .hero-ttl h1 {
     font-size: 60rem;
   }
-  .hero__ttl p {
+  .hero-ttl p {
     font-size: 24rem;
   }
-  .hero__category {
+  .hero-category {
     padding: 73rem 0 68rem;
   }
-  .hero__category .container {
+  .hero-category .container {
     flex-wrap: wrap;
   }
-  .hero__category-item {
+  .hero-category-item {
     width: 250rem;
     height: 59.17rem;
     border-radius: 29.58rem;
     font-size: 24rem;
     margin: 0 13rem;
   }
-  .hero__category-item span {
+  .hero-category-item span {
     letter-spacing: -5rem;
   }
 }
 @media (max-width: 640px) {
-  .hero__ttl {
+  .hero-ttl {
     padding: 67rem 0 47rem;
   }
-  .hero__category {
+  .hero-category {
     padding: 33rem 0 38rem;
   }
-  .hero__category .container {
+  .hero-category .container {
     flex-wrap: wrap;
   }
-  .hero__category-item {
+  .hero-category-item {
     width: 250rem;
     height: 59.17rem;
     border-radius: 29.58rem;
     margin: 0 14rem;
   }
-  .hero__category-item:last-child {
+  .hero-category-item:last-child {
     margin-top: 24rem;
   }
 }
@@ -1566,10 +1566,10 @@ body {
   font-size: 20px;
   margin-top: 30px;
 }
-.concept__top {
+.concept-top {
   padding: 88px 0 73px;
 }
-.concept__bottom {
+.concept-bottom {
   padding: 47px 0 218px;
 }
 .concept .separate-line {
@@ -1590,10 +1590,10 @@ body {
     font-size: 20rem;
     margin-top: 30rem;
   }
-  .concept__top {
+  .concept-top {
     padding: 88rem 0 73rem;
   }
-  .concept__bottom {
+  .concept-bottom {
     padding: 47rem 0 218rem;
   }
   .concept .separate-line {
@@ -1609,10 +1609,10 @@ body {
     font-size: 24rem;
     margin-top: 44rem;
   }
-  .concept__top {
+  .concept-top {
     padding: 70rem 0 61rem;
   }
-  .concept__bottom {
+  .concept-bottom {
     padding: 58rem 0 104rem;
   }
   .concept .separate-line {
@@ -1629,79 +1629,79 @@ body {
   padding: 0;
   position: relative;
 }
-.mission__ttl {
+.mission-ttl {
   font-size: 36px;
   line-height: 43px;
 }
-.mission__content {
+.mission-content {
   width: 343.32px;
   background: #fff;
   padding: 11px 17px 15px 14px;
   margin-top: 30px;
 }
-.mission__content-ttl {
+.mission-content-ttl {
   font-size: 11px;
   display: flex;
   align-items: center;
 }
-.mission__content-ttl span {
+.mission-content-ttl span {
   display: inline-block;
   width: 8.79px;
   height: 1.51px;
   margin-right: 3.5px;
 }
-.mission__content-items {
+.mission-content-items {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
 }
-.mission__content-item {
+.mission-content-item {
   width: 99px;
   height: 99px;
 }
-.mission__content-item img {
+.mission-content-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.mission__slider {
+.mission-slider {
   width: 603.16px;
   height: 386.51px;
   position: absolute;
   right: 0;
   bottom: 0;
 }
-.mission__slider .swiper {
+.mission-slider .swiper {
   width: 100%;
   height: 100%;
 }
-.mission__slider .swiper-slide {
+.mission-slider .swiper-slide {
   width: 100%;
   height: 100%;
   background: #e5e5e5;
 }
-.mission__slider .swiper-slide img {
+.mission-slider .swiper-slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.mission__slider .swiper-pagination {
+.mission-slider .swiper-pagination {
   bottom: 14px;
   text-align: right;
   padding-right: 26px;
 }
-.mission__slider .swiper-pagination-bullet {
+.mission-slider .swiper-pagination-bullet {
   width: 9.59px;
   height: 9.59px;
   background: #9b9c9c;
   opacity: 0.78;
   margin: 0 6px;
 }
-.mission__slider .swiper-pagination-bullet-active {
+.mission-slider .swiper-pagination-bullet-active {
   background: #191919;
   opacity: 0.6;
 }
-.mission__slider .swiper-button-next {
+.mission-slider .swiper-button-next {
   width: 37.23px;
   height: 37.23px;
   border: 3px solid #fff;
@@ -1711,37 +1711,37 @@ body {
   margin-top: 0;
   bottom: 55px;
 }
-.mission__slider .swiper-button-next::after {
+.mission-slider .swiper-button-next::after {
   content: unset;
 }
 
 .mission.please {
   background: #F6B900;
 }
-.mission.please .mission__content-ttl {
+.mission.please .mission-content-ttl {
   color: #F6B900;
 }
-.mission.please .mission__content-ttl span {
+.mission.please .mission-content-ttl span {
   background: #F6B900;
 }
 
 .mission.environment {
   background: #00933B;
 }
-.mission.environment .mission__content-ttl {
+.mission.environment .mission-content-ttl {
   color: #00933B;
 }
-.mission.environment .mission__content-ttl span {
+.mission.environment .mission-content-ttl span {
   background: #00933B;
 }
 
 .mission.business {
   background: #F29F00;
 }
-.mission.business .mission__content-ttl {
+.mission.business .mission-content-ttl {
   color: #F29F00;
 }
-.mission.business .mission__content-ttl span {
+.mission.business .mission-content-ttl span {
   background: #F29F00;
 }
 
@@ -1752,45 +1752,45 @@ body {
   .mission .container {
     padding: 0 20px;
   }
-  .mission__ttl {
+  .mission-ttl {
     font-size: 36rem;
     line-height: 43rem;
   }
-  .mission__content {
+  .mission-content {
     width: 343.32rem;
     padding: 11rem 17rem 15rem 14rem;
     margin-top: 30rem;
   }
-  .mission__content-ttl {
+  .mission-content-ttl {
     font-size: 11rem;
   }
-  .mission__content-ttl span {
+  .mission-content-ttl span {
     width: 8.79rem;
     height: 1.51rem;
     margin-right: 3.5rem;
   }
-  .mission__content-items {
+  .mission-content-items {
     margin-top: 10rem;
   }
-  .mission__content-item {
+  .mission-content-item {
     width: 99rem;
     height: 99rem;
   }
-  .mission__slider {
+  .mission-slider {
     width: 603.16rem;
     height: 386.51rem;
     right: 20px;
   }
-  .mission__slider .swiper-pagination {
+  .mission-slider .swiper-pagination {
     bottom: 14rem;
     padding-right: 26rem;
   }
-  .mission__slider .swiper-pagination-bullet {
+  .mission-slider .swiper-pagination-bullet {
     width: 9.59rem;
     height: 9.59rem;
     margin: 0 6rem;
   }
-  .mission__slider .swiper-button-next {
+  .mission-slider .swiper-button-next {
     width: 37.23rem;
     height: 37.23rem;
     border: 3rem solid #fff;
@@ -1803,33 +1803,33 @@ body {
     padding: 54rem 0 228rem;
     text-align: center;
   }
-  .mission__ttl {
+  .mission-ttl {
     font-size: 30rem;
     line-height: 43rem;
   }
-  .mission__content {
+  .mission-content {
     width: 441rem;
     padding: 14rem 18rem 19rem 18rem;
     margin-top: 34rem;
     margin-left: auto;
     margin-right: auto;
   }
-  .mission__content-ttl {
+  .mission-content-ttl {
     font-size: 14rem;
   }
-  .mission__content-ttl span {
+  .mission-content-ttl span {
     width: 11.39rem;
     height: 1.95rem;
     margin-right: 4.5rem;
   }
-  .mission__content-items {
+  .mission-content-items {
     margin-top: 12.7rem;
   }
-  .mission__content-item {
+  .mission-content-item {
     width: 127rem;
     height: 127rem;
   }
-  .mission__slider {
+  .mission-slider {
     width: 580rem;
     height: 373.63rem;
     left: 0;
@@ -1837,16 +1837,16 @@ body {
     margin: 0 auto;
     bottom: -420rem;
   }
-  .mission__slider .swiper-pagination {
+  .mission-slider .swiper-pagination {
     bottom: 35rem;
     padding-right: 36rem;
   }
-  .mission__slider .swiper-pagination-bullet {
+  .mission-slider .swiper-pagination-bullet {
     width: 11.81rem;
     height: 11.81rem;
     margin: 0 7.5rem;
   }
-  .mission__slider .swiper-button-next {
+  .mission-slider .swiper-button-next {
     width: 45.87rem;
     height: 45.87rem;
     border: 3rem solid #fff;
@@ -1861,42 +1861,42 @@ body {
 .effort .container {
   padding: 0;
 }
-.effort__ttl {
+.effort-ttl {
   color: #fff;
   margin-top: 52px;
   padding: 20px 35px;
   background-color: #F6B900;
 }
-.effort__items {
+.effort-items {
   color: #F6B900;
   list-style: none;
   margin-top: 36px;
 }
-.effort__items li {
+.effort-items li {
   padding: 0 37px;
 }
-.effort__items li:not(:last-child) {
+.effort-items li:not(:last-child) {
   margin-bottom: 43px;
 }
 
-.effort.please .effort__ttl {
+.effort.please .effort-ttl {
   background-color: #F6B900;
 }
-.effort.please .effort__items {
+.effort.please .effort-items {
   color: #F6B900;
 }
 
-.effort.environment .effort__ttl {
+.effort.environment .effort-ttl {
   background-color: #00933B;
 }
-.effort.environment .effort__items {
+.effort.environment .effort-items {
   color: #00933B;
 }
 
-.effort.business .effort__ttl {
+.effort.business .effort-ttl {
   background-color: #F29F00;
 }
-.effort.business .effort__items {
+.effort.business .effort-items {
   color: #F29F00;
 }
 
@@ -1908,17 +1908,17 @@ body {
   .effort .container {
     padding: 0 20px;
   }
-  .effort__ttl {
+  .effort-ttl {
     margin-top: 52rem;
     padding: 20rem 35rem;
   }
-  .effort__items {
+  .effort-items {
     margin-top: 36rem;
   }
-  .effort__items li {
+  .effort-items li {
     padding: 0 37rem;
   }
-  .effort__items li:not(:last-child) {
+  .effort-items li:not(:last-child) {
     margin-bottom: 43rem;
   }
 }
@@ -1927,17 +1927,17 @@ body {
     padding: 238rem 0 102rem;
     font-size: 24rem;
   }
-  .effort__ttl {
+  .effort-ttl {
     margin-top: 54rem;
     padding: 25rem 31rem;
   }
-  .effort__items {
+  .effort-items {
     margin-top: 29rem;
   }
-  .effort__items li {
+  .effort-items li {
     padding: 0 37rem;
   }
-  .effort__items li:not(:last-child) {
+  .effort-items li:not(:last-child) {
     margin-bottom: 46rem;
   }
 }
@@ -1979,27 +1979,27 @@ body {
   color: #fff;
   margin-top: 129px;
 }
-.contact__ttl {
+.contact-ttl {
   font-family: KozGoPr6N-Bold;
   font-size: 60px;
 }
-.contact__txt {
+.contact-txt {
   margin-top: 49px;
   font-size: 21px;
   line-height: 36.8px;
 }
-.contact__content {
+.contact-content {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   margin-top: 43.8px;
 }
-.contact__content .separate-line {
+.contact-content .separate-line {
   width: 1px;
   height: 247.76px;
   background: #fff;
 }
-.contact__content-call {
+.contact-content-call {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2008,7 +2008,7 @@ body {
   height: 100%;
   padding-right: 4%;
 }
-.contact__content-mail {
+.contact-content-mail {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2017,28 +2017,28 @@ body {
   height: 100%;
   padding-left: 4%;
 }
-.contact__btn {
+.contact-btn {
   width: 148px;
   height: 159px;
   display: block;
 }
-.contact__btn img {
+.contact-btn img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.contact__number {
+.contact-number {
   margin-top: 38px;
   font-family: noto-bold;
   font-size: 36px;
   line-height: 1;
 }
-.contact__time {
+.contact-time {
   margin-top: 14px;
   font-size: 18px;
   line-height: 21px;
 }
-.contact__more {
+.contact-more {
   margin-top: 52px;
   width: 164.69px;
   height: 41.48px;
@@ -2046,7 +2046,7 @@ body {
   background: #fff;
   color: #00A4D6;
 }
-.contact__more span {
+.contact-more span {
   line-height: 1;
   font-size: 14px;
   font-family: acumin;
@@ -2058,41 +2058,41 @@ body {
     padding: 78rem 0 120rem;
     margin-top: 129rem;
   }
-  .contact__ttl {
+  .contact-ttl {
     font-size: 60rem;
   }
-  .contact__txt {
+  .contact-txt {
     margin-top: 49rem;
     font-size: 21rem;
     line-height: 36.8rem;
   }
-  .contact__content {
+  .contact-content {
     margin-top: 43.8rem;
   }
-  .contact__content .separate-line {
+  .contact-content .separate-line {
     width: 1rem;
     height: 247.76rem;
   }
-  .contact__btn {
+  .contact-btn {
     width: 148rem;
     height: 159rem;
   }
-  .contact__number {
+  .contact-number {
     margin-top: 38rem;
     font-size: 36rem;
   }
-  .contact__time {
+  .contact-time {
     margin-top: 14rem;
     font-size: 18rem;
     line-height: 21rem;
   }
-  .contact__more {
+  .contact-more {
     margin-top: 52rem;
     width: 164.69rem;
     height: 41.48rem;
     border-radius: 20.74rem;
   }
-  .contact__more span {
+  .contact-more span {
     font-size: 14rem;
   }
 }
@@ -2102,53 +2102,53 @@ body {
     background-image: url("/assets/images/bg_contact_sp.png");
     margin-top: 122rem;
   }
-  .contact__ttl {
+  .contact-ttl {
     font-size: 60rem;
   }
-  .contact__txt {
+  .contact-txt {
     margin-top: 40rem;
     font-size: 22rem;
     line-height: 42.8rem;
   }
-  .contact__content {
+  .contact-content {
     margin-top: 50.9rem;
     flex-direction: column;
     align-items: center;
   }
-  .contact__content .separate-line {
+  .contact-content .separate-line {
     display: none;
   }
-  .contact__content-call {
+  .contact-content-call {
     width: 100%;
     height: auto;
     padding-right: 0;
   }
-  .contact__content-mail {
+  .contact-content-mail {
     width: 100%;
     height: auto;
     padding-left: 0;
     margin-top: 62rem;
   }
-  .contact__btn {
+  .contact-btn {
     width: 382rem;
     height: 120rem;
   }
-  .contact__number {
+  .contact-number {
     margin-top: 35rem;
     font-size: 46rem;
   }
-  .contact__time {
+  .contact-time {
     margin-top: 15rem;
     font-size: 24rem;
     line-height: 28rem;
   }
-  .contact__more {
+  .contact-more {
     margin-top: 49rem;
     width: 300.13rem;
     height: 78.85rem;
     border-radius: 39.43rem;
   }
-  .contact__more span {
+  .contact-more span {
     font-size: 24rem;
   }
 }
