@@ -2,6 +2,10 @@
     background-repeat: no-repeat;
 }
 
+body {
+    @include kozuka();
+}
+
 img {
     width: 100%;
     height: 100%;
@@ -59,9 +63,6 @@ html {
     html {
         font-size: calc(100vw / 1200);
     }
-    .pc-only {
-        display: none;
-    }
     .main {
         margin-top: 80rem;
     }
@@ -76,6 +77,10 @@ html {
         padding: 0 30rem!important;
     }
 
+    .pc-only {
+        display: none;
+    }
+    
     .sp-only {
         display: block;
     }

@@ -13,6 +13,11 @@
 }
 
 @font-face {
+  font-family: KozGoPr6N-Regular;
+  src: font('KozGoPr6N-Regular.otf');
+}
+
+@font-face {
   font-family: morisawa;
   src: font('こぶりなゴシック\ StdN\ W6.otf');
 }
@@ -38,6 +43,9 @@
   }
   @if ($type == 'medium') {
     font-family: KozGoPr6N-Medium;
+  }
+  @if ($type == 'regular') {
+    font-family: KozGoPr6N-Regular;
   }
 }
 
