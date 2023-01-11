@@ -53,7 +53,7 @@
   font-family: morisawa;
 }
 
-@mixin noto($type: 'medium') {
+@mixin noto($type: 'regular') {
   @if ($type == 'bold') {
     font-family: noto-bold;
   }
