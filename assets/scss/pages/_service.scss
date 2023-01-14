@@ -1,0 +1,506 @@
+.main-service {
+    .page {
+        padding-bottom: 200px;
+    }
+    .page-category__item {
+        background: linear-gradient(#00b1ec 0%, #0070bc 100%);
+    }
+    .page-description {
+        font-size: 28px;
+        @include kozuka('bold');
+        color: #0070BC;
+        margin-top: 70px;
+    }
+    .page-txt {
+        color: #231815;
+        font-size: 21px;
+        margin-top: 30px;
+    }
+}
+
+@include lg {
+    .main-service {
+        .page {
+            padding-bottom: 200rem;
+        }
+        .page-category__item {
+            margin-bottom: 28rem;
+            margin-top: 0;
+        }
+        .page-description {
+            font-size: 28rem;
+            margin-top: 70rem;
+        }
+        .page-txt {
+            font-size: 21rem;
+            margin-top: 30rem;
+        }
+    }
+    
+}
+
+@include md {
+    .main-service {
+        .page {
+            padding-bottom: 72rem;
+        }
+        .page-category__item {
+            margin-bottom: 28rem;
+            margin-top: 0;
+        }
+        .page-description {
+            font-size: 28rem;
+            margin-top: 70rem;
+        }
+        .page-txt {
+            font-size: 26rem;
+            margin-top: 30rem;
+        }
+    }
+    
+}
+
+
+.process {
+    .container {
+        padding: 0;
+    }
+    &-top {
+        background-size: 100% 100%;
+        padding: 52px 0 0;
+        height: 303px;
+        .container {
+            position: relative;
+        }
+    }
+    &-ttl {
+        font-size: 36px;
+        @include kozuka('bold');
+        color: #ffffff;
+    }
+    &-category {
+        display: flex;
+        margin-top: 54px;
+        &__item {
+            font-size: 21px;
+            width: 219.62px;
+            height: 58.94px;
+            border-radius: 11.21px;
+            background: #fff;
+            margin-right: 19px;           
+        }
+    }
+    &-img {
+        position: absolute;
+        width: 570.74px;
+        height: 367.66px;
+        right: 0;
+        top: -150px;
+    }
+    &-txt {
+        font-size: 21px;
+        padding-top: 18px;
+    }
+    &-sub {
+        margin-top: 63px;
+        &__ttl {
+            font-size: 21px;
+            padding: 20px 34px;
+            color: #fff;
+        }
+    }
+}
+
+.classify {
+    &-top {
+        background-image: image('service/bg_classify.png');
+    }
+    &-category {
+        &__item {
+            color: #00A4D6;        
+        }
+    }
+    &-sub {
+        &__ttl {
+            background: #00a4d6;
+        }
+        &__content {
+            padding: 0 37px;
+            h4 {
+                margin-top: 33px;
+                font-size: 21px;
+                color: #00A4D6;
+            }
+            p {
+                font-size: 12px;
+                line-height: 20px;
+                margin-top: 18px;
+            }
+        }
+    }
+}
+
+.performance {
+    margin-top: 240px;
+    &-top {
+        background-image: image('service/bg_performance.png');
+    }
+    &-category {
+        &__item {
+            color: #0070BC;        
+        }
+    }
+    &-sub {
+        &__ttl {
+            background: #0070BC;
+        }
+        &__content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 27px;
+        }
+        &__item {
+            width: 353px;
+            &--img {
+                width: 100%;
+                height: 237.87px;
+            }
+            &--content {
+                display: flex;
+                padding: 20px;
+                border-bottom: 2px solid #0070bc;
+                font-size: 12px;
+                h4 {
+                    color: #0070BC;
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
+.integration {
+    margin-top: 200px;
+    &-top {
+        background: #cf9f00;
+        padding-top: 37px;
+    }
+    &-category {
+        margin-top: 14px;
+        &__txt {
+            width: 473.55px;
+            color: #ffffff;
+            font-size: 21px;        
+        }
+    }
+}
+
+.quality {
+    margin-top: 200px;
+    &-top {
+        background: #e03819;
+        padding-top: 37px;
+    }
+    &-category {
+        margin-top: 14px;
+        &__txt {
+            width: 473.55px;
+            color: #ffffff;
+            font-size: 21px;        
+        }
+    }
+}
+
+.manufacture {
+    margin-top: 200px;
+    &-top {
+        background: #e56a02;
+        padding-top: 37px;
+    }
+    &-category {
+        margin-top: 14px;
+        &__txt {
+            width: 500px;
+            color: #ffffff;
+            font-size: 21px;        
+            line-height: 40px;
+        }
+    }
+}
+
+@include lg {
+
+    .process {
+        .container {
+            padding: 0 20px;
+        }
+        &-top {
+            padding: 52rem 0 0;
+            height: 303rem;
+        }
+        &-ttl {
+            font-size: 36rem;
+        }
+        &-category {
+            margin-top: 54rem;
+            &__item {
+                font-size: 21rem;
+                width: 219.62rem;
+                height: 58.94rem;
+                border-radius: 11.21rem;
+                margin-right: 19rem;           
+            }
+        }
+        &-img {
+            width: 570.74rem;
+            height: 367.66rem;
+            right: 20px;
+            top: -150rem;
+        }
+        &-txt {
+            font-size: 21rem;
+            padding-top: 38rem;
+        }
+        &-sub {
+            margin-top: 63rem;
+            &__ttl {
+                font-size: 21rem;
+                padding: 20rem 34rem;
+            }
+        }
+    }
+    
+    .classify {
+        &-top {
+            background: #00a4d6;
+        }
+        &-sub {
+            &__content {
+                padding: 0 37rem;
+                h4 {
+                    margin-top: 33rem;
+                    font-size: 21rem;
+                }
+                p {
+                    font-size: 12rem;
+                    line-height: 20rem;
+                    margin-top: 18rem;
+                }
+            }
+        }
+    }
+    
+    .performance {
+        margin-top: 240rem;
+        &-top {
+            background: #0070bc;
+        }
+        &-sub {
+            &__content {
+                margin-top: 27rem;
+            }
+            &__item {
+                width: 353rem;
+                &--img {
+                    width: 100%;
+                    height: 237.87rem;
+                }
+                &--content {
+                    padding: 20rem;
+                    border-bottom: 2rem solid #0070bc;
+                    font-size: 12rem;
+                    h4 {
+                        width: 100rem;
+                    }
+                }
+            }
+        }
+    }
+    
+    .integration {
+        margin-top: 200rem;
+        &-top {
+            padding-top: 37rem;
+        }
+        &-category {
+            margin-top: 14rem;
+            &__txt {
+                width: 473.55rem;
+                font-size: 21rem;        
+            }
+        }
+    }
+    
+    .quality {
+        margin-top: 200rem;
+        &-top {
+            padding-top: 37rem;
+        }
+        &-category {
+            margin-top: 14rem;
+            &__txt {
+                width: 473.55rem;
+                font-size: 21rem;        
+            }
+        }
+    }
+    
+    .manufacture {
+        margin-top: 200rem;
+        &-top {
+            padding-top: 37rem;
+        }
+        &-category {
+            margin-top: 14rem;
+            &__txt {
+                width: 500rem;
+                font-size: 21rem;        
+                line-height: 40rem;
+            }
+        }
+    }
+}
+
+@include md {
+
+    .process {
+        &-top {
+            padding: 55rem 0 0;
+            height: 454rem;
+            text-align: center;
+        }
+        &-ttl {
+            font-size: 32rem;
+        }
+        &-category {
+            margin-top: 34rem;
+            &__item {
+                font-size: 26rem;
+                width: 277.52rem;
+                height: 74.48rem;
+                border-radius: 11.21rem;
+                margin-right: 25rem;
+                &:last-child {
+                    margin-right: 0;
+                }         
+            }
+        }
+        &-img {
+            width: 580rem;
+            height: 373rem;
+            right: 30rem;
+            top: 206.5rem;
+        }
+        &-txt {
+            font-size: 24rem;
+            line-height: 44rem;
+            padding-top: 241rem;
+        }
+        &-sub {
+            margin-top: 64rem;
+            &__ttl {
+                font-size: 24rem;
+                padding: 20rem 30rem;
+            }
+        }
+    }
+    
+    .classify {
+        &-sub {
+            &__content {
+                padding: 0 30rem;
+                h4 {
+                    margin-top: 25rem;
+                    font-size: 24rem;
+                }
+                p {
+                    font-size: 24rem;
+                    line-height: 44rem;
+                    margin-top: 18rem;
+                }
+            }
+        }
+    }
+    
+    .performance {
+        margin-top: 117rem;
+        &-sub {
+            &__content {
+                margin-top: 40rem;
+                flex-wrap: wrap;
+            }
+            &__item {
+                width: 100%;
+                margin-bottom: 52rem;
+                &--img {
+                    width: 100%;
+                    height: 390rem;
+                }
+                &--content {
+                    padding: 30rem;
+                    border-bottom: 2rem solid #0070bc;
+                    font-size: 24rem;
+                    h4 {
+                        width: 175rem;
+                    }
+                }
+            }
+        }
+    }
+    
+    .integration {
+        margin-top: 117rem;
+        &-top {
+            padding-top: 55rem;
+            height: 520rem;
+        }
+        &-img {
+            top: 272.5rem;
+        }
+        &-category {
+            margin-top: 45rem;
+            &__txt {
+                width: 100%;
+                font-size: 24rem;        
+            }
+        }
+    }
+    
+    .quality {
+        margin-top: 284rem;
+        &-top {
+            padding-top: 55rem;
+            height: 520rem;
+        }
+        &-img {
+            top: 272.5rem;
+        }
+        &-category {
+            margin-top: 45rem;
+            &__txt {
+                width: 100%;
+                font-size: 24rem;        
+            }
+        }
+    }
+    
+    .manufacture {
+        margin-top: 284rem;
+        margin-bottom: 244rem;
+        &-top {
+            padding-top: 55rem;
+            height: 520rem;
+        }
+        &-img {
+            top: 272.5rem;
+        }
+        &-category {
+            margin-top: 45rem;
+            &__txt {
+                width: 100%;
+                font-size: 24rem;        
+                line-height: 40rem;
+            }
+        }
+    }
+}

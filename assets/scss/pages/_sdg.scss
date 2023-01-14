@@ -518,6 +518,7 @@ $color-business: #F29F00;
 }
 
 .banner {
+    margin-bottom: 129px;
     .container {
         background: linear-gradient(#00b1ec 0%, #0070bc 100%);
         padding: 110px 0 115px;
@@ -532,6 +533,7 @@ $color-business: #F29F00;
 @include lg {
     .banner {
         padding: 0 20px;
+        margin-bottom: 129rem;
         .container {
             padding: 110rem 0 115rem;
             font-size: 27rem;
@@ -543,6 +545,7 @@ $color-business: #F29F00;
 @include md {
     .banner {
         padding: 0 30rem;
+        margin-bottom: 122rem;
         .container {
             padding: 61rem 0 52rem !important;
             font-size: 32rem;
@@ -557,7 +560,6 @@ $color-business: #F29F00;
     background-image: image('bg_contact.png');
     background-size: cover;
     color: #fff;
-    margin-top: 129px;
     &-ttl {
         @include kozuka('bold');
         font-size: 60px;
@@ -636,7 +638,6 @@ $color-business: #F29F00;
 @include lg {
     .contact {
         padding: 78rem 0 120rem;
-        margin-top: 129rem;
         &-ttl {
             font-size: 60rem;
         }
@@ -681,7 +682,6 @@ $color-business: #F29F00;
     .contact {
         padding: 71rem 0 83rem;
         background-image: image('bg_contact_sp.png');
-        margin-top: 122rem;
         &-ttl {
             font-size: 60rem;
         }

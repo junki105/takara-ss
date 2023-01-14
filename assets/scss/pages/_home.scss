@@ -1141,7 +1141,7 @@
 
 .news-bottom {
     @include kozuka('bold');
-    padding: 102px 0 0;
+    padding: 102px 0 129px;
     .container {
         position: relative;
     }
@@ -1215,7 +1215,7 @@
 @include lg {
 
     .news-bottom {
-        padding: 102rem 0 0rem;
+        padding: 102rem 0 129rem;
         &-ttl {
             font-size: 60rem;
             &__jp {
@@ -1267,7 +1267,7 @@
 @include md {
 
     .news-bottom {
-        padding: 120rem 0 16rem;
+        padding: 120rem 0 138rem;
         text-align: center;
         &-ttl {
             text-align: center;
