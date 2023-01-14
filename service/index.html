@@ -10,7 +10,6 @@
     <title>Service</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../assets/css/styles.css">
   </head>
   <body>
@@ -526,38 +525,10 @@
             Copyright(C)2011 Takara Factory All rights reserved.
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="../assets/js/jquery-3.6.3.min.js"></script>
     <script src="../assets/js/jquery.easing.min.js"></script>
     <script src="../assets/js/common.js"></script>
     <script>
-      const swiper01 = new Swiper('.swiper-01', {
-        loop: true,
-        pagination: {
-          el: '.swiper-pagination',
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-        },
-      });
-      const swiper02 = new Swiper('.swiper-02', {
-        loop: true,
-        pagination: {
-          el: '.swiper-pagination',
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-        },
-      });
-      const swiper03 = new Swiper('.swiper-03', {
-        loop: true,
-        pagination: {
-          el: '.swiper-pagination',
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-        },
-      });
       $(window).scroll(function() {
           if ($(this).scrollTop() > 100) {
             $('.back-to-top').fadeIn('slow');
