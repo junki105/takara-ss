@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Facility</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header id="myHeader">
+      <div class="header-content" id="headerContent">
+          <a href="/" class="header-logo-part"><img class="header-logo" id="headerLogo" src="../assets/images/common/logo.png" alt="宝製作所"></a>
+          <div class="navmenu">
+              <div class="navmenu-group">
+                  <a href="/"><div class="en">Home</div><div class="ja">ホーム</div></a>
+                  <a href="/company"><div class="en">Company</div><div class="ja">会社情報</div></a>
+                  <a href="/service"><div class="en">Service</div><div class="ja">事業内容</div></a>
+                  <a href="/facility"><div class="en">Facility</div><div class="ja">設備紹介</div></a>
+                  <a href="/sdgs"><div class="en">SDGs</div><div class="ja">持続可能な開発目標</div></a>
+                  <a href="/recruit"><div class="en">Recruit</div><div class="ja">採用情報</div></a>
+                  <a href="/news"><div class="en">News</div><div class="ja">お知らせ</div></a>
+              </div>
+              <a href="/contact" class="navbtn btn" id="navbtn"><img src="../assets/images/common/arrow.png" alt="宝製作所">
+                  <span class="nav-text">お問い合わせ</span>
+              </a>
+              <div class="dropdown-btn" id="DropdownBtn">
+                  <div class="menu_btn" onclick="event.stopPropagation(); myFunction(this)" id="menuBtn">
+                    <div class="bar1" id="bar1"></div>
+                    <div class="bar2" id="bar2"></div>
+                    <div class="bar3" id="bar3"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </header>
+    <div id="myDropdown" class="dropdown-content sp-only">
+      <div class="dropdown-content-container">
+        <div class="menu-img"><img src="../assets/images/common/bg_menu.png" alt=""></div>
+        <div class="dropdown-content-subcontainer">
+          <a href="/company" class="menu-item-part">
+            <div class="menu-item-part-left">
+              <div class="menu-item-part-ja">
+                会社情報
+              </div>
+              <div class="menu-item-part-en">
+                Company
+              </div>
+            </div>
+            <div class="menu-item-part-right">
+            </div>
+          </a>
+          <a href="/service" class="menu-item-part">
+            <div class="menu-item-part-left">
+              <div class="menu-item-part-ja">
+                製品・品質保証
+              </div>
+              <div class="menu-item-part-en">
+                Service
+              </div>
+            </div>
+            <div class="menu-item-part-right">
+            </div>
+          </a>
+          <a href="/service" class="menu-item-part">
+            <div class="menu-item-part-left">
+              <div class="menu-item-part-ja">
+                事業内容
+              </div>
+              <div class="menu-item-part-en">
+                Service
+              </div>
+            </div>
+            <div class="menu-item-part-right">
+            </div>
+          </a>
+          <a href="/facility" class="menu-item-part">
+            <div class="menu-item-part-left">
+              <div class="menu-item-part-ja">
+                設備紹介
+              </div>
+              <div class="menu-item-part-en">
+                Facility
+              </div>
+            </div>
+            <div class="menu-item-part-right">
+            </div>
+          </a>
+          <a href="/sdgs" class="menu-item-part">
+            <div class="menu-item-part-left">
+              <div class="menu-item-part-ja">
+                持続可能な開発目標
+              </div>
+              <div class="menu-item-part-en">
+                SDGs
+              </div>
+            </div>
+            <div class="menu-item-part-right">
+            </div>
+          </a>
+          <a href="/recruit" class="menu-item-part">
+            <div class="menu-item-part-left">
+              <div class="menu-item-part-ja">
+                採用情報
+              </div>
+              <div class="menu-item-part-en">
+                Recruit
+              </div>
+            </div>
+            <div class="menu-item-part-right">
+            </div>
+          </a>
+          <a href="/news" class="menu-item-part">
+            <div class="menu-item-part-left">
+              <div class="menu-item-part-ja">
+                お知らせ
+              </div>
+              <div class="menu-item-part-en">
+                News
+              </div>
+            </div>
+            <div class="menu-item-part-right">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="main main-facility main-service">
+      <section class="breadcrumbs">
+        <div class="container">
+          <ul>
+            <li>TOP</li>
+            <li><span>></span>設備紹介</li>
+          </ul>
+        </div>
+      </section>
+      <section class="page">
+        <div class="page-ttl">
+          <div class="container">
+            <h1>FACILTY</h1>
+            <p>設備紹介</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="page-description">
+            製品のクオリティを最優先に、<br>
+            専用工場での一貫製造・<br class="sp-only">徹底管理を実現しています。
+          </div>
+          <div class="page-txt">
+            マシニングセンタ、NCフライス盤、縦型フライス盤、溶接機、CNC旋盤等、<br>
+            多様な設備を保有し、加工での幅を広くし、お客様のご要望にお応えします。
+          </div>
+        </div>
+      </section>
+      <section class="facilities">
+        <div class="container">
+          <div class="facilities-item">
+            <div class="facilities-item__img">
+              <img src="../assets/images/facility/facilities_item_01.png" alt="取り組み">
+            </div>
+            <div class="facilities-item__ttl">
+              ボール盤
+            </div>
+          </div>
+          <div class="facilities-item">
+            <div class="facilities-item__img">
+              <img src="../assets/images/facility/facilities_item_02.png" alt="取り組み">
+            </div>
+            <div class="facilities-item__ttl">
+              OKKベッド型<br class="pc-only">汎用フライス盤MH－2V
+            </div>
+          </div>
+          <div class="facilities-item">
+            <div class="facilities-item__img">
+              <img src="../assets/images/facility/facilities_item_03.png" alt="取り組み">
+            </div>
+            <div class="facilities-item__ttl">
+              OKUMA立型<br class="pc-only">マシニングMC－6VAE
+            </div>
+          </div>
+          <div class="facilities-item">
+            <div class="facilities-item__img">
+              <img src="../assets/images/facility/facilities_item_04.png" alt="取り組み">
+            </div>
+            <div class="facilities-item__ttl">
+              OKUMA立型<br class="pc-only">マシニングM－561V
+            </div>
+          </div>
+          <div class="facilities-item">
+            <div class="facilities-item__img">
+              <img src="../assets/images/facility/facilities_item_05.png" alt="取り組み">
+            </div>
+            <div class="facilities-item__ttl">
+              TOSHIBA横中マシニング<br class="pc-only">BTD200QF
+            </div>
+          </div>
+          <div class="facilities-item">
+            <div class="facilities-item__img">
+              <img src="../assets/images/facility/facilities_item_06.png" alt="取り組み">
+            </div>
+            <div class="facilities-item__ttl">
+              MATUURA立型マシニング<br class="pc-only">MC-500V-PC-2S
+            </div>
+          </div>
+          <div class="facilities-item">
+            <div class="facilities-item__img">
+              <img src="../assets/images/facility/facilities_item_07.png" alt="取り組み">
+            </div>
+            <div class="facilities-item__ttl">
+              TOMINAGAラジアル<br class="pc-only">RH－1350
+            </div>
+          </div>
+          <div class="facilities-item">
+            <div class="facilities-item__img">
+              <img src="../assets/images/facility/facilities_item_08.png" alt="取り組み">
+            </div>
+            <div class="facilities-item__ttl">
+              TOSHIBA横中汎用機<br class="pc-only">BT－8D
+            </div>
+          </div>
+          <div class="facilities-item">
+            <div class="facilities-item__img">
+              <img src="../assets/images/facility/facilities_item_09.png" alt="取り組み">
+            </div>
+            <div class="facilities-item__ttl">
+              OKUMA立型マシニング<br class="pc-only">MC－60VAE
+            </div>
+          </div>
+        </div>
+        <div class="facilities-bgTitle">FACILITY</div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <h2 class="contact-ttl">
+            Contact
+          </h2>
+          <p class="contact-txt">
+            精密切削加工のニーズに高品質・低価格でお応えします。<br>
+            お気軽にお問い合わせください。
+          </p>
+          <div class="contact-content">
+            <div class="contact-content-call">
+              <a href="tel:0587-95-1478" class="contact-btn">
+                <picture>
+                  <source srcset="../assets/images/contact_call_sp.png" media="(max-width: 640px)" />
+                  <img src="../assets/images/contact_call.png" alt="Contact" />
+                </picture>
+              </a>
+              <div class="contact-number">0587-95-1478</div>
+              <div class="contact-time">営業時間：（平日） 9:00〜18:00</div>
+            </div>
+            <div class="separate-line"></div>
+            <div class="contact-content-mail">
+              <a href="mailto:" class="contact-btn">
+                <picture>
+                  <source srcset="../assets/images/contact_mail_sp.png" media="(max-width: 640px)" />
+                  <img src="../assets/images/contact_mail.png" alt="Contact" />
+                </picture>
+              </a>
+              <a href="#" class="contact-more btn">
+                <span>VIEW MORE</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a class="back-to-top btn">
+        <img src="../assets/images/btn_top.png" alt="SDGs">
+      </a>
+    </div>
+    <footer class="footer">
+        <div class="footer-left">
+            <a href="" class="footer-logo btn"><img src="../assets/images/common/footer_logo.png" alt=""></a>
+        </div>
+        <div class="footer-right">
+            <div class="footer-right-part01">
+                <div class="footer-right-part01-logo">
+                    <img src="../assets/images/common/footer_logo_white.png" alt="">
+                </div>
+                <div class="footer-right-part01-text02">
+                    〒480-0133<br>
+                    愛知県丹羽郡大口町替地二丁目５番地
+                </div>
+                <div class="footer-right-part01-border"></div>
+                <div class="footer-phone">
+                    <div class="footer-phone-text">
+                        <div class="footer-phone-text01">
+                            <img src="../assets/images/common/ico_phone.png" alt="">
+                            0587-95-1478
+                        </div>
+                        <div class="footer-phone-text02">
+                            営業時間　（平日） 9:00〜18:00
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-submenu">
+                    <a href="/privacy">プライバシーポリシー</a>
+                    <div class="footer-submenu-border"></div>
+                    <a href="/sitemaps">サイトマップ</a>
+                </div>
+            </div>
+            <div class="footer-right-part02">
+                <a href="/" class="footer-nav"><span class="footer-en">Home</span><span class="footer-ja">ホーム</span></a>
+                <a href="/" class="footer-nav"><span class="footer-en">Company</span><span class="footer-ja">会社情報</span></a>
+                <a href="/" class="footer-nav"><span class="footer-en">Service</span><span class="footer-ja">事業内容</span></a>
+                <a href="/" class="footer-nav"><span class="footer-en">Facility</span><span class="footer-ja">設備紹介</span></a>
+                <a href="/" class="footer-nav"><span class="footer-en">SDGs</span><span class="footer-ja">持続可能な開発目標</span></a>
+                <a href="/" class="footer-nav"><span class="footer-en">Recruit</span><span class="footer-ja">採用情報</span></a>
+                <a href="/" class="footer-nav"><span class="footer-en">News</span><span class="footer-ja">お知らせ</span></a>
+                <a href="" class="contact-btn btn">
+                    <img src="../assets/images/common/arrow.png" alt="">
+                    <span>お問い合わせ</span>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright(C)2011 Takara Factory All rights reserved.
+        </div>
+    </footer>
+    <script src="../assets/js/jquery-3.6.3.min.js"></script>
+    <script src="../assets/js/jquery.easing.min.js"></script>
+    <script src="../assets/js/common.js"></script>
+    <script>
+      $(window).scroll(function() {
+          if ($(this).scrollTop() > 100) {
+            $('.back-to-top').fadeIn('slow');
+          } else {
+            $('.back-to-top').fadeOut('slow');
+          }
+      });
+        
+      $('.back-to-top').click(function() {
+          $('html, body').animate({
+            scrollTop: 0
+          }, 700, 'easeInOutExpo');
+          return false;
+      });
+    </script>
+  </body>
+</html>

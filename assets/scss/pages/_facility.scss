@@ -1,0 +1,116 @@
+.main-facility {
+    .page {
+        padding-bottom: 70px;
+        &-ttl {
+            h1 {
+                color: #00A4D6;
+            }
+            p {
+                color: #0070BC;
+            }
+        }
+        &-description {
+            color: #0070BC;
+            margin-top: 0;
+        }
+    }
+}
+
+.facilities {
+    background: #0070bc;
+    padding: 124px 0 200px;
+    position: relative;
+    .container {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &-item {
+        width: 328.95px;
+        margin-bottom: 41px;
+        &__img {
+            width: 100%;
+            height: 212.94px;
+            background: #a7a8a8;
+        }
+        &__ttl {
+            width: 100%;
+            height: 166.14px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #009FD1;
+            font-size: 24px;
+            text-align: center;
+            @include kozuka('bold');
+        }
+    }
+    &-bgTitle {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 170px;
+        color: #d3d4d473;
+        line-height: 0.77;
+        @include kozuka('bold');
+    }
+}
+
+@include lg {
+    .main-facility {
+        .page {
+            padding-bottom: 70rem;
+        }
+    }
+    
+    .facilities {
+        padding: 124rem 0 200rem;
+        .container {
+            padding: 0 20px;
+        }
+        &-item {
+            width: 328.95rem;
+            margin-bottom: 41rem;
+            &__img {
+                height: 212.94rem;
+            }
+            &__ttl {
+                height: 166.14rem;
+                font-size: 24rem;
+            }
+        }
+        &-bgTitle {
+            font-size: 170rem;
+        }
+    }
+}
+
+@include md {
+    .main-facility {
+        .page {
+            padding-bottom: 70rem;
+        }
+    }
+    
+    .facilities {
+        padding: 156rem 0 240rem;
+        &-item {
+            width: 576rem;
+            margin-bottom: 45rem;
+            &__img {
+                height: 373rem;
+            }
+            &__ttl {
+                height: 139rem;
+                font-size: 30rem;
+            }
+        }
+        &-bgTitle {
+            font-size: 150rem;
+            text-align: center;
+            width: 100%;
+        }
+    }
+}
